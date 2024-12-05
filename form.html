@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Survey form</title>
+
+    <style>
+        .padd {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body
+    style="background-image:url('2018959.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;">
+
+    <h1 style="color:aliceblue;text-align: center;">Survey Form</h1>
+    <div style="height: 600px;width: 500px; ;;background-color: whitesmoke;margin-left: 500px;">
+        <center>
+            <h3 style="align-items: center;">Let us know how we can improve</h3>
+            <div class="padd">
+                <label style="padding: 20px">Name</label>
+                <input type="text" required placeholder="Enter your name">
+            </div>
+            <div class="padd"><label style="padding: 20px;">Email</label>
+                <input type="text" required placeholder="Enter your email">
+            </div>
+            <div class="padd" <label style="padding: 20px;">Age</label>
+                <input type="text" required placeholder="Enter your age">
+            </div>
+            <input type="file"><br>
+            <div class="padd">
+                <label>Which option best describes you:</label>
+                <select>
+                    <option value="Student">Student</option>
+                    <option value="Employed">Employed</option>
+                    <option value="" selected disabled>select</option>
+
+                </select>
+            </div>
+
+            <div class="padd">
+                <label>How likely is that you would recommend this program to a friend</label>
+                <div style="display: inline-block;flex-direction: column;align-items: flex-start;">
+                    <div style="display: flex;flex-direction: row;">
+                        <input type="radio" name="recommend">
+                        <label>Defenitely</label>
+                    </div>
+                    <div style="display: flex;flex-direction: row;">
+                        <input type="radio" name="recommend">
+                        <label>Maybe</label>
+                    </div>
+                    <div style="display: flex;flex-direction: row;">
+                        <input type="radio"  name="recommend">
+                        <label>Not Sure</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="padd">
+                <label>What do you like most here:</label>
+                <select>
+                    <option value="Front-end">Front-end</option>
+                    <option value="Back-end">Back-end</option>
+                    <option value="Visualization">Data Visualization</option>
+                    <option value="" selected disabled>select</option>
+
+                </select>
+
+        </div>
+        <div class="padd">
+            <label>Things that should be improved in the future(check all that apply)</label>
+            <div style="display: inline-block;flex-direction: column;align-items: flex-start;">
+                <div style="display: flex;flex-direction: row;">
+                    <input type="checkbox" name="recommend">
+                    <label>Defenitely</label>
+                </div>
+                <div style="display: flex;flex-direction: row;">
+                    <input type="checkbox" name="recommend">
+                    <label>Maybe</label>
+                </div>
+                <div style="display: flex;flex-direction: row;">
+                    <input type="checkbox"  name="recommend">
+                    <label>Not Sure</label>
+                </div>
+            </div>
+        </div>
+        <div class="padd">
+            <label>Any comments or suggestions?</label>
+    <textarea></textarea><br>
+        </div>
+        <button style="color: white;background-color: blue;">Submit</button><br>
+
+        </center>
+
+    </div>
+
+</body>
+
+</html>
